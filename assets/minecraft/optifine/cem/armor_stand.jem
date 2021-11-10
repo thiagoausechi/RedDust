@@ -1,0 +1,96 @@
+{
+	"texture": "wood.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [32, 0]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [38, 16]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-7, 12, -2, 0, 0, 0], "textureOffset": [47, 16]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [4, 12, -2, 0, 0, 0], "textureOffset": [32, 16]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1.85, -12, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-4, 1, -2, 4, 11, 4], "textureOffset": [0, 29]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.85, -12, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [0, 1, -2, 4, 11, 4], "textureOffset": [39, 17]}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-6, 0, -6, 12, 1, 12], "textureOffset": [16, 35]}
+			]
+		},
+		{
+			"part": "right",
+			"id": "right",
+			"invertAxis": "xy",
+			"translate": [3, 0, 2],
+			"rotate": [5, 0, 10],
+			"boxes": [
+				{"coordinates": [0.3, -13.22323, -4.0416, 3, 12, 4], "textureOffset": [1, 0]}
+			]
+		},
+		{
+			"part": "left",
+			"id": "left",
+			"invertAxis": "xy",
+			"translate": [-2, 0, 0],
+			"rotate": [5, 0, -10],
+			"boxes": [
+				{"coordinates": [-4, -13.5692, -2.3, 3, 12, 4], "textureOffset": [0, 0]}
+			]
+		}
+	]
+}

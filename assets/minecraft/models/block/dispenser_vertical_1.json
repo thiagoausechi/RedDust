@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "minecraft:block/furnace_side",
+    "north": "minecraft:block/dispenser/dispenser_side_vertical",
+    "south": "minecraft:block/dispenser/dispenser_side_vertical",
+    "east": "minecraft:block/dispenser/dispenser_side_vertical",
+    "west": "minecraft:block/dispenser/dispenser_side_vertical",
+    "up": "minecraft:block/dispenser/dispenser_front_vertical",
+    "down": "minecraft:block/dispenser/dispenser_back_vertical"
+  }
+}
