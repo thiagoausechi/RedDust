@@ -1,0 +1,26 @@
+============ Legenda ============
++ Adições
+- Remoções
+? Algum problema detectado
+! Trabalho em andamento
+=================================
+
+
+**
+*
+* Aqui irá mostrar as mudanças
+* feitas a partir do dia 26/04/21
+* 
+* Toda a lista de Recursos que o
+* pacote oferece esta descrito
+* e categorizado no arquivo
+* "features.txt"
+*
+**
+
+
+
+================================
+26/04/21
+================================
+! Variação de Magma Block
