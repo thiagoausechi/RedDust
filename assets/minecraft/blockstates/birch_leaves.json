@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/leaves/birch/birch_leaves1" },
+		{ "model": "block/leaves/birch/birch_leaves2" },
+		{ "model": "block/leaves/birch/birch_leaves3" },
+		{ "model": "block/leaves/birch/birch_leaves4" },
+		{ "model": "block/leaves/birch/birch_leaves5" },
+		{ "model": "block/leaves/birch/birch_leaves6" }
+		]
+    }
+}

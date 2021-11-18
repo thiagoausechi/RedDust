@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/gravel/0"
+      },
+      {
+        "model": "block/gravel/1"
+      },
+      {
+        "model": "block/gravel/2"
+      },
+      {
+        "model": "block/gravel/3"
+      },
+      {
+        "model": "block/gravel/4"
+      },
+      {
+        "model": "block/gravel/5"
+      },
+      {
+        "model": "block/gravel/6"
+      },
+      {
+        "model": "block/gravel/7"
+      }
+    ]
+  }
+}
