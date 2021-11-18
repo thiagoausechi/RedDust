@@ -2,5 +2,17 @@
     "pack": {
         "description": "A view a little better for your game! (1.17+)",
         "pack_format": 7
+    },
+    "language": {
+        "en_us": {
+            "region": "US",
+            "name": "[§2+§f] English",
+            "bidirectional": false
+        },
+        "pt_br": {
+            "region": "Brasil",
+            "name": "[§2+§f] Portugu\u00eas",
+            "bidirectional": false
+        }
     }
 }
