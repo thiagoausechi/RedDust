@@ -2,12 +2,12 @@
 	"ambientocclusion": false,
 	"textures": {
 		"top": "block/hopper_top",
-		"particle": "block/hopper_outside",
-		"side": "block/hopper_outside",
-		"inside": "block/hopper_inside_side",
-		"back": "block/hopper_back",
+		"particle": "block/hopper_outside_active",
+		"side": "block/hopper_outside_active",
+		"inside": "block/hopper_inside_side_active",
+		"back": "block/hopper_back_active",
 		"inner": "block/hopper_inner",
-		"down": "block/hopper_side",
+		"down": "block/hopper_side_active",
 		"bottom": "block/hopper_bottom"
 	},
 	"elements": [
@@ -88,7 +88,7 @@
 				"north": {"uv": [6, 6, 10, 10], "texture": "#bottom", "cullface": "north"},
 				"east": {"uv": [12, 8, 16, 12], "texture": "#side"},
 				"west": {"uv": [0, 8, 4, 12], "texture": "#side"},
-				"up": {"uv": [6, 0, 10, 4], "texture": "#side"},
+				"up": {"uv": [6, 12, 4, 4], "texture": "#side"},
 				"down": {"uv": [6, 12, 10, 16], "texture": "#back"}
 			}
 		}
