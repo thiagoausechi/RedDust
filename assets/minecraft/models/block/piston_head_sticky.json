@@ -1,7 +1,7 @@
 {
     "textures": {
         "face": "block/piston_top_sticky",
-        "side": "block/piston_side",
+        "side": "block/piston_side_sticky",
         "extension": "block/piston_extension",
 		"particle": "block/piston_top_sticky"
     },

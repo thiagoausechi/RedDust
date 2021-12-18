@@ -1,31 +1,40 @@
 {
-    "ambientocclusion": false,
-    "textures": {
-        "particle": "#stem"
-    },
-    "elements": [
-        {   "from": [ 0, -1, 8 ],
-            "to": [ 16, 7, 8 ],
-            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
-            "faces": {
-                "north": { "uv": [  0, 0, 16, 8 ], "texture": "#stem" },
-                "south": { "uv": [ 16, 0,  0, 8 ], "texture": "#stem" }
-            }
-        },
-        {   "from": [ 8, -1, 0 ],
-            "to": [ 8, 7, 16 ],
-            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
-            "faces": {
-                "west": { "uv": [  0, 0, 16, 8 ], "texture": "#stem" },
-                "east": { "uv": [ 16, 0,  0, 8 ], "texture": "#stem" }
-            }
-        },
-        {   "from": [ 0, 0, 8 ],
-            "to": [ 9, 16, 8 ],
-            "faces": {
-                "north": { "uv": [ 9, 0, 0, 16 ], "texture": "#upperstem" },
-                "south": { "uv": [ 0, 0, 9, 16 ], "texture": "#upperstem" }
-            }
-        }
-    ]
+	"__comment": "Designed by JermsyBoy with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#stem",
+		"stem": "block/stem/pumpkin_stem",
+		"bottom": "block/stem/pumpkin_stem_bottom"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ2",
+			"from": [ -15, -1, 8 ],
+			"to": [ 17, 31, 8.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+				"south": { "uv": [ 16, 0, 0, 16 ], "texture": "#stem" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 0, -1.001, 8 ],
+			"to": [ 16, -0.9999999, 24 ],
+			"rotation": { "origin": [ 0, -1, 8 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 1, 16, 16 ], "texture": "#bottom" },
+				"up": { "uv": [ 16, 16, 0, 1 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 0, -1, -8 ],
+			"to": [ 16, -0.999, 8 ],
+			"rotation": { "origin": [ 0, -1, 8 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 16, 16, 0, 1 ], "texture": "#bottom" },
+				"up": { "uv": [ 0, 1, 16, 16 ], "texture": "#bottom" }
+			}
+		}
+	]
 }
